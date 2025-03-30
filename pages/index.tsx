@@ -3,10 +3,20 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="relative min-h-screen w-full">
-      <div className="absolute inset-0 bg-custom-bg bg-cover bg-center bg-no-repeat opacity-90" style={{ zIndex: -1 }}></div>
+      <div 
+        className="absolute inset-0 opacity-90" 
+        style={{ 
+          zIndex: -1,
+          backgroundImage: "url('https://i.imgur.com/D2jFlnO.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      ></div>
       <div className="relative z-10">
         <Head>
           <title>NEO App</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="description" content="Created with Next.js" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
