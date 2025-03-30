@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         'custom-bg': "url('https://i.imgur.com/BufIgnI.jpg')",
       },
+      minHeight: {
+        screen: '100vh',
+      },
     },
   },
   plugins: [],
