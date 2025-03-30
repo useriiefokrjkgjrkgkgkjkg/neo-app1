@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-bg': "url('https://i.imgur.com/BufIgnI.jpg')",
+        'custom-bg': "url('https://i.imgur.com/D2jFlnO.jpg')",
       },
       minHeight: {
         screen: '100vh',
